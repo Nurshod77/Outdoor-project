@@ -1,0 +1,175 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divs-group {
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divs-group .p1 {
+    color: #E6B939;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.divs-group .center-h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #575445;
+}
+
+.divs-group .text3 {
+    text-align: center;
+    color: #575445;
+}
+
+.divs-group .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.divs-group .cards .in-card {
+    background-image: url('./images/IMAGE (83).png');
+    background-size: cover;
+    background-position: center;
+    width: 330px;
+    height: 450px;
+    border-radius: 6px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.divs-group .cards .in-card h2 {
+    color: #575445;
+    padding-bottom: 10px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+.divs-group .cards .in-card p {
+    color: #575445;
+    padding-bottom: 20px;
+}
+
+.divs-group .cards .in-card a {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #575445;
+}
+
+.divs-group .cards .in-card2 {
+    background-image: url('./images/IMAGE (85).png');
+    background-size: cover;
+    background-position: center;
+    width: 330px;
+    height: 450px;
+    border-radius: 6px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.divs-group .cards .in-card2 h2,
+.divs-group .cards .in-card3 h2,
+.divs-group .cards .in-card4 h2,
+.divs-group .cards .in-card5 h2,
+.divs-group .cards .in-card6 h2 {
+    color: #575445;
+    padding-bottom: 10px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+.divs-group .cards .in-card2 p,
+.divs-group .cards .in-card3 p,
+.divs-group .cards .in-card4 p,
+.divs-group .cards .in-card5 p,
+.divs-group .cards .in-card6 p {
+    color: #575445;
+    padding-bottom: 20px;
+}
+
+.divs-group .cards .in-card2 a,
+.divs-group .cards .in-card3 a,
+.divs-group .cards .in-card4 a,
+.divs-group .cards .in-card5 a,
+.divs-group .cards .in-card6 a {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #575445;
+}
+
+.divs-group .cards .in-card3 {
+    background-image: url('./images/IMAGE (86).png');
+    background-size: cover;
+    background-position: center;
+    width: 330px;
+    height: 450px;
+    border-radius: 6px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.divs-group .cards .in-card4 {
+    background-image: url('./images/IMAGE (87).png');
+    background-size: cover;
+    background-position: center;
+    width: 330px;
+    height: 450px;
+    border-radius: 6px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.divs-group .cards .in-card5 {
+    background-image: url('./images/IMAGE (88).png');
+    background-size: cover;
+    background-position: center;
+    width: 330px;
+    height: 450px;
+    border-radius: 6px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.divs-group .cards .in-card6 {
+    background-image: url('./images/IMAGE (89).png');
+    background-size: cover;
+    background-position: center;
+    width: 330px;
+    height: 450px;
+    border-radius: 6px;
+    padding: 20px 50px;
+    text-align: center;
+}
+.back-a {
+    text-decoration: none;
+    color: #575445;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #ccc;
+    width: 100px;
+    margin: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.back-a img {
+    width: 20px;
+}
