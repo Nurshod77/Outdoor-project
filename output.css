@@ -577,4 +577,359 @@ footer .bottom .icons img {
   cursor: pointer;
 }
 
+/* ========== MOBILE RESPONSIVE STYLES ========== */
+@media (max-width: 1200px) {
+  .river-section ul {
+    width: 700px;
+    margin-left: 250px;
+  }
+}
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+  header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  header .buttons {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero {
+    height: 70vh;
+    background-position: center;
+  }
+  .hero .text-div {
+    margin-left: 50px;
+    padding-top: 70px;
+  }
+  .hero h1 {
+    font-size: 35px;
+  }
+  .flex {
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+    padding: 40px 20px;
+  }
+  .flex img {
+    width: 100% !important;
+    max-width: 580px;
+  }
+  .wrapper .big-div {
+    gap: 30px;
+  }
+  .river-section {
+    height: 60vh;
+  }
+  .river-section ul {
+    width: 90%;
+    margin: 300px auto 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+  }
+  .navigator .group {
+    flex-direction: column;
+  }
+  .magazine {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  .magazine .mag-img {
+    width: 90%;
+    max-width: 450px;
+  }
+  footer {
+    padding: 40px 20px;
+  }
+  footer .logo2 {
+    margin-left: 0;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  footer ul {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  footer .placeholder input {
+    width: 100%;
+    max-width: 400px;
+  }
+  footer .placeholder button {
+    left: 70%;
+    bottom: 43px;
+  }
+  footer .bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  footer .bottom .icons {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+  .hero .text-div {
+    margin-left: 30px;
+    padding-top: 50px;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+  .hero .text2 {
+    font-size: 14px;
+  }
+  .wrapper {
+    padding: 20px;
+  }
+  .wrapper .matnlar h2 {
+    font-size: 28px;
+  }
+  .wrapper .matnlar .morbi {
+    font-size: 14px;
+  }
+  .wrapper .big-div {
+    gap: 40px;
+  }
+  .wrapper .big-div .inside-div {
+    width: 100%;
+    max-width: 300px;
+  }
+  .divs-group {
+    padding: 20px;
+  }
+  .divs-group .cards .in-card,
+  .divs-group .cards .in-card2,
+  .divs-group .cards .in-card3,
+  .divs-group .cards .in-card4,
+  .divs-group .cards .in-card5,
+  .divs-group .cards .in-card6 {
+    width: 90%;
+    max-width: 330px;
+    height: 400px;
+    padding: 20px;
+  }
+  .river-section {
+    height: 50vh;
+    padding: 20px;
+  }
+  .river-section ul {
+    margin-top: 200px;
+    width: 95%;
+  }
+  .product {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .product div {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .product div h2 {
+    font-size: 28px;
+  }
+  .product div .text4 {
+    font-size: 14px;
+  }
+  .navigator {
+    padding: 20px;
+  }
+  .navigator .group .group-in {
+    width: 100%;
+  }
+  .navigator .group .group-in img {
+    width: 100%;
+    max-width: 450px;
+  }
+  footer .placeholder input {
+    width: 100%;
+  }
+  footer .placeholder button {
+    left: auto;
+    right: 10px;
+    bottom: 43px;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+  header img {
+    width: 150px;
+  }
+  header nav {
+    gap: 10px;
+  }
+  header nav a {
+    font-size: 14px;
+  }
+  header .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  header .buttons button {
+    width: 180px;
+  }
+  .hero {
+    height: 50vh;
+  }
+  .hero .text-div {
+    margin-left: 20px;
+    padding-top: 30px;
+  }
+  .hero h1 {
+    font-size: 24px;
+  }
+  .hero .text1,
+  .hero .text2 {
+    font-size: 12px;
+  }
+  .flex {
+    padding: 20px 10px;
+  }
+  .flex div {
+    text-align: center;
+  }
+  .wrapper .big-div .inside-div h2 {
+    font-size: 20px;
+  }
+  .wrapper .big-div .inside-div p {
+    font-size: 14px;
+  }
+  .divs-group .center-h2 {
+    font-size: 24px;
+  }
+  .divs-group .text3 {
+    font-size: 14px;
+  }
+  .river-section {
+    height: 40vh;
+  }
+  .river-section ul {
+    margin-top: 150px;
+    padding: 10px;
+  }
+  .river-section ul li {
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+  }
+  .river-section ul li img {
+    width: 20px;
+  }
+  .product div h2 {
+    font-size: 24px;
+  }
+  .product div .text4 {
+    font-size: 13px;
+  }
+  .navigator .navig-h2 {
+    font-size: 24px;
+  }
+  .navigator .text5,
+  .navigator .text6 {
+    font-size: 13px;
+  }
+  .navigator .user {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start !important;
+  }
+  .magazine {
+    padding: 20px 10px;
+  }
+  .magazine h2 {
+    font-size: 24px;
+  }
+  .magazine .text7,
+  .magazine .text8 {
+    font-size: 13px;
+  }
+  footer {
+    padding: 30px 15px;
+  }
+  footer .placeholder input {
+    width: 100%;
+    font-size: 14px;
+  }
+  footer .placeholder button {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+    height: 45px;
+  }
+}
+/* Extra small devices (phones, 375px and down) */
+@media (max-width: 375px) {
+  .hero {
+    height: 45vh;
+  }
+  .hero .text-div {
+    margin-left: 15px;
+  }
+  .hero h1 {
+    font-size: 22px;
+  }
+  .divs-group .cards .in-card,
+  .divs-group .cards .in-card2,
+  .divs-group .cards .in-card3,
+  .divs-group .cards .in-card4,
+  .divs-group .cards .in-card5,
+  .divs-group .cards .in-card6 {
+    height: 350px;
+  }
+  .river-section {
+    height: 35vh;
+  }
+  .river-section ul {
+    margin-top: 120px;
+  }
+  footer ul li {
+    gap: 10px;
+  }
+  footer ul li h4 {
+    font-size: 16px;
+  }
+  footer ul li p {
+    font-size: 14px;
+  }
+}
+/* ========== TABLET PORTRAIT ORIENTATION ========== */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .river-section ul {
+    margin-left: 100px;
+    width: 600px;
+  }
+  .magazine {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/* ========== LANDSCAPE ORIENTATION FOR MOBILE ========== */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    height: 100vh;
+  }
+  .river-section {
+    height: 100vh;
+  }
+  .river-section ul {
+    margin-top: 250px;
+  }
+  .product {
+    height: 70vh;
+  }
+}
+
 /*# sourceMappingURL=output.css.map */
